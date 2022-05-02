@@ -1,0 +1,244 @@
+h3{
+    margin: 0px;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    /* le header.. contient la nav et div.navigationMenu */
+}
+.navigationMenu{
+    border: solid 1px gray;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 10px 5px 5px rgba(81, 84, 233, 0.699);
+    /* contient les lien de nav (acceuil ect.. */
+}
+.lienDeLaNav{
+    border: solid 1px ;
+    border-radius: 25px;
+    padding: 3px 10px 3px 10px;
+    font-family:cursive;
+    font-weight: bold;
+    color: black;
+    background: linear-gradient(to right, rgba(11, 118, 184, 0.568), rgb(255, 255, 255));
+    /* lien de la nav (acceuil ect.. */
+}
+.lienDeLaNav:hover{
+    color: black;
+    background: linear-gradient(to right, rgb(255, 255, 255), rgba(11, 118, 184, 0.568));
+    /* lien de la nav (acceuil ect.. */
+}
+.imgLogo{
+    border-radius: 50px;
+    padding-top: 3px;
+    /* image perso (chez sneaky) */
+}
+.ContenuMain1{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    /* div tete de page avec image + titre principal */
+}
+.imgEnTete{
+    height: 480px;
+    width: 1885px;
+    position: relative;
+    z-index: 1;
+    /* image apres la nav sous "(z-index0)" le titre principal  */
+}
+
+.block1{
+    position: absolute;
+    top: 35%;
+    width: 627px;
+    height: 175px;
+    z-index: 2;
+    text-align: center;
+    border: solid black 1px;
+    background-color: rgba(192, 186, 186, 0.616);
+    /* div qui contien le titre principal */
+}
+.titreImageEnTete{
+    font-size: 30px;
+    color: white;
+}
+.titre2ImageEnTete{
+    font-family:Arial;
+    font-size: 15px;
+    color: white;
+
+}
+.blockArticle1{
+    width: 850px;
+    height: 410px;
+    background-color: white;
+    margin: 65px auto 10px ;
+    display: flex;
+}
+.article1{
+    margin: 0px 10px 20px 0px;
+    border: black 0.5px solid;
+    width: 425px;
+    height: 400px;
+    text-align: center;
+}
+.imgArticle1{
+    width:100%;
+    height: 200px;
+}
+.article2{
+    border: black 0.5px solid;
+    width: 425px;
+    height: 400px;
+    text-align: center;
+}
+.imgArticle2{
+    width:100%;
+    height: 200px;
+    position: relative;
+    top: 60px;
+}
+.blockArticle2{
+    width: 850px;
+    height: 410px;
+    background-color: white;
+    margin: 0px auto 10px ;
+    display: flex;
+}
+.article3{
+    margin-right: 10px;
+    border: black 0.5px solid;
+    width: 425px;
+    height: 400px;
+    text-align: center;
+}
+.imgArticle3{
+    width:100%;
+    height: 200px;
+}
+.article4{
+    border: black 0.5px solid;
+    width: 425px;
+    height: 400px;
+    text-align: center;
+}
+.imgArticle4{
+    width:100%;
+    height: 200px;
+    position: relative;
+    top: 59px;
+}
+.blockArticle3{
+    width: 850px;
+    height: 410px;
+    background-color: white;
+    margin: 0px auto 10px ;
+    display: flex;
+}
+.article5{
+    margin-right: 10px;
+    border: black 0.5px solid;
+    width: 425px;
+    height: 400px;
+    text-align: center;
+}
+.imgArticle5{
+    width:100%;
+    height: 200px;
+}
+.article6{
+    border: black 0.5px solid;
+    width: 425px;
+    height: 400px;
+    text-align: center;
+}
+.imgArticle6{
+    width:100%;
+    height: 200px;
+    position: relative;
+    top: 40px;
+}
+.blockArticle4{
+    width: 850px;
+    height: 410px;
+    background-color: white;
+    margin: 0px auto 10px ;
+    display: flex;
+}
+.article7{
+    margin: 0px 10px 10px 0px;
+    border: black 0.5px solid;
+    width: 425px;
+    height: 400px;
+    text-align: center;
+}
+.imgArticle7{
+    width:100%;
+    height: 200px;
+}
+.article8{
+    border: black 0.5px solid;
+    width: 425px;
+    height: 400px;
+    text-align: center;
+}
+.imgArticle8{
+    width:100%;
+    height: 200px;
+    position: relative;
+    top: 79px;
+}
+footer {
+    color: white;
+    position: relative;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    background-color: black;
+}
+input[type=text], textarea, input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-right: 0px;
+    margin-left: 0px;
+    resize: vertical;
+  }
+  label{margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;}
+  
+  input[type=submit] {
+    background: linear-gradient(to right, rgba(11, 118, 184, 0.568), rgb(255, 255, 255));
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background: linear-gradient(to right, rgb(255, 255, 255), rgba(11, 118, 184, 0.568));
+  }
+  
+  .container {
+    border-radius:5px;
+    background-color:#f2f2f2;
+    padding:20px;
+    width: 100%;
+    max-width: 440px;
+    margin:30px auto;
+  }
+  h1  {
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+  }
